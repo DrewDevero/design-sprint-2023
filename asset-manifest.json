@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/design-sprint-2023/static/css/main.cd59b2ca.css",
+    "main.js": "/design-sprint-2023/static/js/main.02a7fc9e.js",
+    "static/js/787.7bfeb120.chunk.js": "/design-sprint-2023/static/js/787.7bfeb120.chunk.js",
+    "static/media/cloth_no_background.glb": "/design-sprint-2023/static/media/cloth_no_background.13f79e0f2ced9da7efc1.glb",
+    "static/media/table_runner.jpg": "/design-sprint-2023/static/media/table_runner.197e19849b369e8e956e.jpg",
+    "static/media/coster_design.jpg": "/design-sprint-2023/static/media/coster_design.b81902f7e6eba4b245d2.jpg",
+    "static/media/place_mat.jpg": "/design-sprint-2023/static/media/place_mat.7317baacbdcae46bcd16.jpg",
+    "static/media/ht_footer.png": "/design-sprint-2023/static/media/ht_footer.ea5cd4f754789713f97b.png",
+    "static/media/shutterstock_219591568-jpg": "/design-sprint-2023/static/media/shutterstock_219591568-9d6dbdf270b8430ba7fb053399599a13.0139995f41f4f0f2bd91.jpg",
+    "static/media/ht_nav.png": "/design-sprint-2023/static/media/ht_nav.8da7cbf747516edd9793.png",
+    "index.html": "/design-sprint-2023/index.html",
+    "main.cd59b2ca.css.map": "/design-sprint-2023/static/css/main.cd59b2ca.css.map",
+    "main.02a7fc9e.js.map": "/design-sprint-2023/static/js/main.02a7fc9e.js.map",
+    "787.7bfeb120.chunk.js.map": "/design-sprint-2023/static/js/787.7bfeb120.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cd59b2ca.css",
+    "static/js/main.02a7fc9e.js"
+  ]
+}
