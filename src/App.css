@@ -64,6 +64,39 @@ h4 {
 footer {
   width: 100%
 }
+
+#text-one {
+  margin-left: 5%;
+  margin-right: 5%;
+  background-color: white;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  grid-template-areas: 
+                "one two"
+                "three three"
+}
+
+#one {
+  grid-area: one;
+  padding: 10% 10% 5% 10%;
+}
+
+#two {
+  grid-area: two;
+  padding: 10% 10% 5% 10%;
+}
+
+#three {
+  grid-area: three;
+  padding: 5% 10% 10% 10%;
+}
+
+#four {
+  grid-area: four;
+  display: none;
+}
+
 .images {
   margin: 5% 10% 5% 10%;
   display: flex;
@@ -71,6 +104,13 @@ footer {
   align-items: center;
   justify-content: space-between;
 }
+
+@media only screen and (max-width: 950px){
+  .images{
+    flex-direction: column;
+  }
+}
+
 #img-one {
   box-shadow: '5px 5px 5px rgba(104, 104, 104, 0.2)';
   background-color: 'rgba(140, 140, 140, 0.4)';
@@ -116,6 +156,22 @@ footer {
   justify-content: center;
 }
 
+#text-two {
+  background-color: white;
+  margin-left: 5%;
+  margin-right: 5%;
+  width: 25%;
+}
+
+@media only screen and (max-width: 600px){
+  .model-area{
+    flex-direction: column;
+  }
+  #text-two{
+    width: 75%;
+  }
+}
+
 #model {
   background-color: white;
   margin-left: 5%;
@@ -123,42 +179,4 @@ footer {
 }
 model-viewer {
   height: 20em;
-}
-#text-one {
-  margin-left: 5%;
-  margin-right: 5%;
-  background-color: white;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr;
-  grid-template-areas: 
-                "one two"
-                "three three"
-}
-
-#one {
-  grid-area: one;
-  padding: 10% 10% 5% 10%;
-}
-
-#two {
-  grid-area: two;
-  padding: 10% 10% 5% 10%;
-}
-
-#three {
-  grid-area: three;
-  padding: 5% 10% 10% 10%;
-}
-
-#four {
-  grid-area: four;
-  display: none;
-}
-
-#text-two {
-  background-color: white;
-  margin-left: 5%;
-  margin-right: 5%;
-  width: 25%;
 }
